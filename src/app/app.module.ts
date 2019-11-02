@@ -25,13 +25,13 @@ import { ErrorHandler } from './shared/services/error-handler.service';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    AppRoutingModule,
   ],
   providers: [
     ErrorHandler,
