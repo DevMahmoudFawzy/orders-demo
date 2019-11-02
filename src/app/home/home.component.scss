@@ -1,0 +1,12 @@
+.orders-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        margin: 0 16px;
+        background-color: #74c0e2;
+        color: #fff;
+    }
+}

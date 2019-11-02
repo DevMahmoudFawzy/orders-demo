@@ -1,0 +1,49 @@
+.order-header {
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.order-header__title {
+    color: #525f6e;
+    margin: 0;
+}
+
+.order-items {
+    padding: 16px;
+}
+
+table {
+    width: 100%;
+
+    th.mat-header-cell {
+        font-weight: bold;
+    }
+
+    .mat-cell {
+        color: #626e7b;
+    }
+}
+
+.increment-btn, .decrement-btn {
+    background: #74c0e2;
+    color: #fff;
+    padding: 0 8px;
+    min-width: unset;
+}
+
+.increment-btn {
+    border-radius: 0 20px 20px 0;
+}
+
+.decrement-btn {
+    border-radius: 20px 0 0 20px;
+}
+
+.item-quantity {
+    display: inline-block;
+    border: 2px solid #dde1e6;
+    margin: 0 5px;
+    padding: 8px;
+    text-align: center;
+    min-width: 25px;
+}

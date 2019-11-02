@@ -1,0 +1,31 @@
+.site-wrapper {
+    height: 100%;
+}
+
+.site-wrapper .mat-toolbar.mat-primary .mat-button {
+    color: #fff;
+    background: #74c0e2;
+    margin: 0 8px;
+}
+
+.menu-toggler {
+    color: #74c0e2;
+}
+
+.mat-toolbar.mat-primary {
+    background: #d8dde3;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-wrapper .content-wrapper {
+    height: calc(100% - 64px);
+}
+
+@media (max-width: 599px){
+    .site-wrapper .content-wrapper {
+        height: calc(100% - 56px);
+    }
+}
